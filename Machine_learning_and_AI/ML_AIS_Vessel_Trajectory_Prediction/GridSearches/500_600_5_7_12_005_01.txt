@@ -1,0 +1,35 @@
+param_grid = {
+    'n_estimators': [500, 600],
+    'max_depth': [5, 7, 12],
+    'learning_rate' : [0.05, 0.1],
+}
+
+Fitting 5 folds for each of 12 candidates, totalling 60 fits
+[CV 1/5] END learning_rate=0.05, max_depth=5, n_estimators=500;, score=0.802 total time= 6.8min
+[CV 2/5] END learning_rate=0.05, max_depth=5, n_estimators=500;, score=0.816 total time=42.4min
+[CV 3/5] END learning_rate=0.05, max_depth=5, n_estimators=500;, score=0.815 total time= 3.1min
+[CV 4/5] END learning_rate=0.05, max_depth=5, n_estimators=500;, score=0.859 total time= 3.1min
+[CV 5/5] END learning_rate=0.05, max_depth=5, n_estimators=500;, score=0.832 total time= 3.1min
+[CV 1/5] END learning_rate=0.05, max_depth=5, n_estimators=600;, score=0.803 total time= 3.6min
+[CV 2/5] END learning_rate=0.05, max_depth=5, n_estimators=600;, score=0.817 total time= 3.7min
+[CV 3/5] END learning_rate=0.05, max_depth=5, n_estimators=600;, score=0.816 total time= 3.6min
+[CV 4/5] END learning_rate=0.05, max_depth=5, n_estimators=600;, score=0.859 total time= 3.7min
+[CV 5/5] END learning_rate=0.05, max_depth=5, n_estimators=600;, score=0.832 total time= 3.7min
+[CV 1/5] END learning_rate=0.05, max_depth=7, n_estimators=500;, score=0.807 total time= 3.8min
+[CV 2/5] END learning_rate=0.05, max_depth=7, n_estimators=500;, score=0.822 total time= 3.8min
+[CV 3/5] END learning_rate=0.05, max_depth=7, n_estimators=500;, score=0.821 total time= 3.7min
+[CV 4/5] END learning_rate=0.05, max_depth=7, n_estimators=500;, score=0.861 total time= 3.9min
+[CV 5/5] END learning_rate=0.05, max_depth=7, n_estimators=500;, score=0.833 total time= 3.9min
+[CV 1/5] END learning_rate=0.05, max_depth=7, n_estimators=600;, score=0.807 total time= 4.6min
+[CV 2/5] END learning_rate=0.05, max_depth=7, n_estimators=600;, score=0.822 total time= 4.9min
+[CV 3/5] END learning_rate=0.05, max_depth=7, n_estimators=600;, score=0.821 total time= 4.8min
+[CV 4/5] END learning_rate=0.05, max_depth=7, n_estimators=600;, score=0.860 total time= 4.7min
+[CV 5/5] END learning_rate=0.05, max_depth=7, n_estimators=600;, score=0.833 total time= 4.8min
+[CV 1/5] END learning_rate=0.05, max_depth=12, n_estimators=500;, score=0.798 total time= 6.5min
+[CV 2/5] END learning_rate=0.05, max_depth=12, n_estimators=500;, score=0.809 total time= 6.7min
+[CV 3/5] END learning_rate=0.05, max_depth=12, n_estimators=500;, score=0.802 total time= 6.7min
+[CV 4/5] END learning_rate=0.05, max_depth=12, n_estimators=500;, score=0.851 total time= 6.9min
+[CV 5/5] END learning_rate=0.05, max_depth=12, n_estimators=500;, score=0.815 total time= 6.7min
+[CV 1/5] END learning_rate=0.05, max_depth=12, n_estimators=600;, score=0.797 total time= 8.0min
+[CV 2/5] END learning_rate=0.05, max_depth=12, n_estimators=600;, score=0.807 total time= 8.1min
+[CV 3/5] END learning_rate=0.05, max_depth=12, n_estimators=600;, score=0.801 total time= 8.2min
